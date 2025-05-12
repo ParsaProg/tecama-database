@@ -6,10 +6,11 @@
       "use": "@vercel/node"
     }
   ],
+  
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.js"
+      "dest": "./prism/index.js"
     }
   ],
   "env": {
